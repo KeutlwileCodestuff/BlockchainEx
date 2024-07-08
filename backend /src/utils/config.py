@@ -3,10 +3,10 @@ import mysql.connector
 def config():
     try:
         db_connection = mysql.connector.connect(
-            host="your_host",
-            user="your_username",
-            password="your_password",
-            database="your_database"
+            host="1234",
+            user="KeyMan",
+            password="password",
+            # database ="database"
         )
     except Exception as e:
         print("Could not connect to the database.")
