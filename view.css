@@ -45,6 +45,7 @@ body {
 }
 
 #login {
+
   justify-content: center;
   align-items: center;
 
@@ -57,7 +58,6 @@ body {
 }
 
 
-/* Styling for the app name */
 #appName {
   font-weight: bold; /* Make the app name bold */
   font-size: 24px; /* Example font size */
